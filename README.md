@@ -14,12 +14,12 @@ Step-by-Step Implementation & Configuration:
 1. Active Directory Setup & User Management
 Configured Active Directory Domain Services (actived.com) on Windows Server and created organizational units and user accounts.
 Screenshot:
-![User Created Screenshot](screenshots/userCreated.jpeg)
+![User Created Screenshot](userCreated.jpeg)
 
 2. Group Policy Object (GPO) Audit Configuration
 Enabled advanced audit policies (Audit User Account Management set to Success and Failure) to capture security event logs effectively.
 Screenshot:
-(Yithe tumhi 1000420754_2.jpg ha screenshot taku sakta)
+![GPO Configuration](GPO.jpeg)
 
 3. Wazuh Agents Deployment
 Connected Windows Server and Windows 10 endpoints as active agents to the Wazuh SIEM server.
