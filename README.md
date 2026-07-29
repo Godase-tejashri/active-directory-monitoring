@@ -1,7 +1,9 @@
 # active-directory-monitoring
+
 A security operations center (SOC) lab demonstrating Wazuh SIEM integration with Active Directory for log monitoring and threat detection.
 
-Project Overview
+Project Overview:
+
 This project demonstrates the setup of a Security Operations Center (SOC) lab environment. It integrates Active Directory (AD) on Windows Server with Wazuh SIEM to monitor, collect, and analyze security event logs, user management activities, and potential threats in real-time.
 
 Tools & Technologies Used:
@@ -15,22 +17,26 @@ Endpoints: Windows 10, Kali Linux (for security testing)
 Frameworks & Concepts: MITRE ATT&CK, Vulnerability Detection, Event ID Analysis
 
 Step-by-Step Implementation & Configuration:
-1. Active Directory Setup & User Management
+1. Active Directory Setup & User Management:
+   
 Configured Active Directory Domain Services (actived.com) on Windows Server and created organizational units and user accounts.
 Screenshot:
 ![User Created Screenshot](userCreated.jpeg)
 
-2. Group Policy Object (GPO) Audit Configuration
+3. Group Policy Object (GPO) Audit Configuration:
+   
 Enabled advanced audit policies (Audit User Account Management set to Success and Failure) to capture security event logs effectively.
 Screenshot:
 ![GPO Configuration](GPO.jpeg)
 
-3.Log Forwarding & Wazuh Agents Deployment
+3.Log Forwarding & Wazuh Agents Deployment:
+
 Configured Wazuh agents to securely forward Windows security event logs to the central SIEM server, connecting Windows Server and Windows 10 endpoints as active agents to the Wazuh SIEM dashboard.
    Screenshot:
 ![Windows Setup](windowS.jpeg)
 
 Security Event Log Analysis (Wazuh Dashboard):
+
 The Wazuh SIEM successfully collected and monitored crucial Windows Security Event IDs:
 
 Event ID 4720 (User Account Created):
@@ -47,12 +53,14 @@ Event ID 4738 (User Account Modified):
 
 Threat Intelligence & Vulnerability Detection:
   
-  MITRE ATT&CK Integration: Mapped security alerts to tactics and techniques.
+  MITRE ATT&CK Integration: 
+  Mapped security alerts to tactics and techniques.
     Screenshot: ![MITRE ATT&CK](mitre.jpeg)
 
 Vulnerability Assessment: 
 Scanned connected endpoints for system vulnerabilities, misconfigurations, and CVEs.
   Screenshot:![Vulnerability Detection](vdetection.jpeg)
 
-Conclusion
+Conclusion:
+
 This lab successfully showcases centralized log management, threat detection, and Active Directory auditing using an open-source SIEM tool like Wazuh, mirroring real-world SOC operations.
