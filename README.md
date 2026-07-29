@@ -24,7 +24,7 @@ Screenshot:
 3.Log Forwarding & Wazuh Agents Deployment
 Configured Wazuh agents to securely forward Windows security event logs to the central SIEM server, connecting Windows Server and Windows 10 endpoints as active agents to the Wazuh SIEM dashboard.
    Screenshot:
-![Windows Setup](windows.jpeg)
+![Windows Setup](windowS.jpeg)
 
 Security Event Log Analysis (Wazuh Dashboard):
 The Wazuh SIEM successfully collected and monitored crucial Windows Security Event IDs:
