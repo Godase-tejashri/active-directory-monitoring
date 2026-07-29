@@ -21,29 +21,33 @@ Enabled advanced audit policies (Audit User Account Management set to Success an
 Screenshot:
 ![GPO Configuration](GPO.jpeg)
 
-3. Wazuh Agents Deployment
-Connected Windows Server and Windows 10 endpoints as active agents to the Wazuh SIEM server.
-Screenshot:
-(Yithe tumhi 1000421484_2.png ha screenshot taku sakta)
+3.Log Forwarding & Wazuh Agents Deployment
+Configured Wazuh agents to securely forward Windows security event logs to the central SIEM server, connecting Windows Server and Windows 10 endpoints as active agents to the Wazuh SIEM dashboard.
+   Screenshot:
+![Windows Setup](windows.jpeg)
 
 Security Event Log Analysis (Wazuh Dashboard):
 The Wazuh SIEM successfully collected and monitored crucial Windows Security Event IDs:
 
-Event ID 4720 (User Account Created):
-Screenshot: (Yithe 1000421479_2.png taku sakta)
+     Event ID 4720 (User Account Created):
+         Screenshot: ![Event 4720](eventId4720.jpeg)
 
-Event ID 4625 (Failed Logon Attempt):
-Screenshot: (Yithe 1000421480_2.png taku sakta)
+      Event ID 4625 (Failed Logon Attempt):
+         Screenshot:![Event 4625](eventId4625.jpeg)
 
-Event ID 4624 (Successful Logon):
-Screenshot: (Yithe 1000421481_2.png taku sakta)
+      Event ID 4624 (Successful Logon):
+         Screenshot: ![Event 4624](eventId4624.jpeg)
+
+      Event ID 4738 (User Account Modified):
+           Screenshot:![Event 4738](eventId4738.jpeg)
 
 Threat Intelligence & Vulnerability Detection:
-MITRE ATT&CK Integration: Mapped security alerts to tactics and techniques.
-Screenshot: (Yithe 1000421485_2.png taku sakta)
+  MITRE ATT&CK Integration: Mapped security alerts to tactics and techniques.
+    Screenshot: ![MITRE ATT&CK](mitre.jpeg)
 
-Vulnerability Assessment: Scanned connected endpoints for system vulnerabilities and CVEs.
-Screenshot: (Yithe 1000421482_2.png taku sakta)
+Vulnerability Assessment: 
+Scanned connected endpoints for system vulnerabilities, misconfigurations, and CVEs.
+  Screenshot:![Vulnerability Detection](vdetection.jpeg)
 
 Conclusion
 This lab successfully showcases centralized log management, threat detection, and Active Directory auditing using an open-source SIEM tool like Wazuh, mirroring real-world SOC operations.
