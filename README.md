@@ -33,7 +33,7 @@ Event ID 4720 (User Account Created):
       Screenshot: ![Event 4720](eventid4720.jpeg)
 
 Event ID 4625 (Failed Logon Attempt):
-         Screenshot:![Event 4625](eventld4625.jpeg)
+         Screenshot:![Event 4720](eventId4625.jpeg)
 
 Event ID 4624 (Successful Logon):
          Screenshot: ![Event 4624](eventid4624.jpeg)
