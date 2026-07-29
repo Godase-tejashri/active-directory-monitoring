@@ -5,9 +5,13 @@ Project Overview
 This project demonstrates the setup of a Security Operations Center (SOC) lab environment. It integrates Active Directory (AD) on Windows Server with Wazuh SIEM to monitor, collect, and analyze security event logs, user management activities, and potential threats in real-time.
 
 Tools & Technologies Used:
+
 SIEM / XDR Solution: Wazuh SIEM
+
 Directory Services: Active Directory (AD), Windows Server 2022
+
 Endpoints: Windows 10, Kali Linux (for security testing)
+
 Frameworks & Concepts: MITRE ATT&CK, Vulnerability Detection, Event ID Analysis
 
 Step-by-Step Implementation & Configuration:
