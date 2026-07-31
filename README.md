@@ -75,10 +75,13 @@ The following Windows Security Event IDs were monitored and analyzed using Wazuh
 | 4726     | User Deleted             |
 
  MITRE ATT&CK Mapping:
-Event---> MITRE Technique
-4625--->	T1110 Brute Force
-4720--->	T1136 Create Account
-4738--->	T1098 Account Manipulation
+The detected security events were mapped to the MITRE ATT&CK Framework to understand attacker tactics and techniques.
+
+| Event ID | MITRE ATT&CK Technique        |
+|----------|------------------------       |
+| 4625     | T1110 – Brute Force           |
+| 4720     | T1136 – Create Account        |
+| 4738     | T1098 – Account Manipulation  |
 
 Skills Demonstrated
 This project helped me gain hands-on experience in the following areas:
