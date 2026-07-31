@@ -99,19 +99,27 @@ This project helped me gain hands-on experience in the following areas:
 - Vulnerability Assessment
 - Security Monitoring
 
-Learning Outcomes:
+Learning Outcomes
 During this project, I learned and practiced the following concepts:
 
--Active Directory Deployment
--Group Policy (GPO) Configuration
--Windows Security Event Monitoring
--Wazuh SIEM Deployment
--Wazuh Agent Installation and Configuration
--Threat Detection and Monitoring
--Windows Log Analysis
--MITRE ATT&CK Mapping
--SOC Monitoring Workflow
--Incident Investigation Process
+- Active Directory Deployment
+
+- Group Policy (GPO) Configuration
+
+- Windows Security Event Monitoring
+
+- Wazuh SIEM Deployment
+
+- Wazuh Agent Installation and Configuration
+
+- Threat Detection and Monitoring
+
+- Windows Log Analysis
+
+- MITRE ATT&CK Mapping
+
+- SOC Monitoring Workflow
+
 
 Challenges Faced:
 While implementing this project, I encountered several challenges:
